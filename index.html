@@ -1,1 +1,43 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SI KORLAP KELAS</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        html, body {
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .download-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 180px;
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="banner.jpg" alt="">
+    <div class="download-box">
+        <a style="opacity: .5;" href="#" onclick="alert('Maaf, aplikasi belum tersedia di Play Store.')">
+            <img src="images/download_playstore.png" alt="" height="78">
+        </a>
+        <a href="app-release.apk">
+            <img src="images/download_apk.png" alt="" height="78">
+        </a>
+    </div>
+</body>
+</html>
